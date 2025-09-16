@@ -1,9 +1,21 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+ACL:
+  color: "#800020"   # 진한 레드
+  text_color: "#ffffff"
+  url: "https://2025.aclweb.org"
 
-"PhysRev":
-  url: https://journals.aps.org/
+EMNLP:
+  color: "#ff7a59"
+  text_color: "#ffffff"
+  url: "https://2025.emnlp.org"
 
-"Vision":
-  color: "#009f36"
+WMT:
+  color: "#ffb300"
+  text_color: "#222222"
+
+CL:
+  color: "#3b3b98"
+  text_color: "#ffffff"
+
+preprint:
+  color: "#2bb673" 
+  text_color: "#000000"
