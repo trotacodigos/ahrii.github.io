@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "trotacodigos/ahriikim",
+    "data-repo": "trotacodigos/trotacodigos.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
