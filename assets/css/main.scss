@@ -23,3 +23,17 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Publication accepted badge */
+.accepted-badge {
+  display: inline-block;
+  margin-left: .5rem;
+  padding: .15rem .4rem;
+  font-size: 0.85em;
+  font-weight: 600;
+  border-radius: .35rem;
+  background: #e8f3ff;
+  color: #0b62b8;
+  border: 1px solid rgba(11, 98, 184, 0.25);
+  white-space: nowrap;
+}
