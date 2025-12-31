@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # the available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Ahrii Kim / 아 리 킴"
+title                    : "Ahrii Kim - 아리 킴"
 title_separator          : "-"
 name                     : &name "Ahrii"
-description              : &description "Ahrii's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ahrii Kim's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://trotacodigos.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -134,7 +134,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "sz6petuZjLczQsg3aWOahEUqdQ0d4rVRX5no7HFnGRI"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
