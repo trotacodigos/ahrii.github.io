@@ -139,9 +139,7 @@ $(document).ready(function () {
     offset: -scssMastheadHeight,
     preventDefault: false,
   });
-
-  alert("menu js loaded");
-  
+  // Mobile menu toggle
   const menuToggle = document.querySelector(".menu-toggle");
   const siteMenu = document.querySelector(".site-menu");
 
