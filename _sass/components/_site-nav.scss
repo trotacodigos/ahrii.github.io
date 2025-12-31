@@ -36,8 +36,16 @@
 @media (max-width: 925px) {
   .site-menu {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    padding: 1rem;
+    z-index: 999;
   }
-  .menu-toggle {
-    display: block;
+
+  .site-menu.active {
+    display: flex;   /* ✅ 토글되면 보이게 */
   }
 }
