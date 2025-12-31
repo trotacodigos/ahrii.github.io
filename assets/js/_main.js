@@ -139,13 +139,5 @@ $(document).ready(function () {
     offset: -scssMastheadHeight,
     preventDefault: false,
   });
-  // Mobile menu toggle
-  const menuToggle = document.querySelector(".menu-toggle");
-  const siteMenu = document.querySelector(".site-menu");
 
-  if (menuToggle && siteMenu) {
-    menuToggle.addEventListener("click", function () {
-      siteMenu.classList.toggle("active");
-    });
-  }
 });
