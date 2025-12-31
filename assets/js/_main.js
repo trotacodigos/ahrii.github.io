@@ -140,9 +140,8 @@ $(document).ready(function () {
     preventDefault: false,
   });
 
-    /* ===============================
-     Mobile menu toggle
-     =============================== */
+  alert("menu js loaded");
+  
   const menuToggle = document.querySelector(".menu-toggle");
   const siteMenu = document.querySelector(".site-menu");
 
