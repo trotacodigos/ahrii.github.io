@@ -30,6 +30,17 @@
   background: none;
   border: none;
   margin-left: 1rem;
+  cursor: pointer;
+  padding: 4px;
+
+  span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--global-masthead-link-color);  /* 테마 색상 자동 적용 */
+    margin: 5px 0;
+    transition: 0.3s;
+  }
 }
 
 /* 모바일 */
@@ -46,6 +57,10 @@
   }
 
   .site-menu.active {
-    display: flex;   /* ✅ 토글되면 보이게 */
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
   }
 }

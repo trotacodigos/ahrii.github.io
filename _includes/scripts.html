@@ -1,7 +1,7 @@
 <script type="module" src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
 <!-- 모바일 메뉴 토글 (non-module, 반드시 module 뒤) -->
-<script src="{{ '/assets/js/mobile-menu.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/mobile-menu.js' | relative_url }}"></script>
 
 <!-- analytics / beacon은 항상 제일 마지막 -->
 {% include analytics.html %}
