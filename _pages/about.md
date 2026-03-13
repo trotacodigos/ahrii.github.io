@@ -10,9 +10,7 @@ redirect_from:
 ## About Me 🤖
 I am a postdoc at the AI-Bio Convergence Research Institute and a visiting professor at Soongsil University.
 
-My work centers on **evaluating language models**, with a particular emphasis on **multilingual capability and reliability**.  
-
-I develop **theoretically grounded and empirically robust evaluation frameworks** by bridging Linguistics, Translation Studies, and Computer Science.
+My work centers on **evaluating language models**, with a particular emphasis on **multilingual capability and reliability**. I develop **theoretically grounded and empirically robust evaluation frameworks** by bridging Linguistics, Translation Studies, and Computer Science.
 
 
 
