@@ -56,7 +56,7 @@
     top: calc(100% + 4px);
     right: 0;
     min-width: 140px;
-    background: var(--global-bg-color);
+    background: var(--global-bg-color, #eeeeee);
     border: 1px solid rgba(58, 55, 75, 0.3);
     border-radius: 8px;
     padding: 0.5rem 0;
