@@ -9,7 +9,7 @@
       "address": "",
       "postalCode": "",
       "city": "Seoul",
-      "countryCode": "KR",
+      "countryCode": "KR"
     },
     "profiles": [
       {
@@ -121,6 +121,6 @@
       "startDate": "2022",
       "department": "Graduate School of Spanish Language & Literature",
       "logo": "https://www.korea.ac.kr/sites/ko/images/contents/emblem_1.png"
-    },
-  ],
+    }
+  ]
 }
