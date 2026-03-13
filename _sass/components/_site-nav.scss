@@ -45,22 +45,48 @@
 
 /* 모바일 */
 @media (max-width: 925px) {
+  .menu-toggle {
+    display: block;
+  }
+
   .site-menu {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 4px);
     right: 0;
-    background: #fff;
-    padding: 1rem;
+    min-width: 140px;
+    background: var(--global-bg-color);
+    border: 1px solid rgba(58, 55, 75, 0.3);
+    border-radius: 8px;
+    padding: 0.5rem 0;
     z-index: 999;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   }
 
   .site-menu.active {
     display: flex;
   }
 
-  .menu-toggle {
+  .site-menu li {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .site-menu li a {
     display: block;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+    color: var(--global-masthead-link-color);
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+
+  .site-menu li a:hover {
+    background: rgba(58, 55, 75, 0.08);
+  }
+
+  .site-menu li + li {
+    border-top: 1px solid rgba(58, 55, 75, 0.15);
   }
 }
